@@ -1,0 +1,215 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        width: 100%;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .wrapper {
+        position: relative;
+    }
+    /* Sidebar */
+    
+    .wrapper .sidebar {
+        position: fixed;
+        width: 20%;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .sidebar img {
+        width: 100px;
+        padding-top: 5%;
+    }
+    
+    .sidebar h2,
+    h4 {
+        line-height: 35px;
+    }
+    
+    .sidebar h2 {
+        padding-top: 5%;
+    }
+    
+    .sidebar h4 {
+        color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .sidebar ul {
+        /* background-color: rgb(107, 111, 122); */
+        padding-top: 15%;
+    }
+    
+    .sidebar ul li {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar ul li {
+        padding: 15px 0px 15px 0px;
+    }
+    
+    .sidebar ul li a {
+        color: black;
+        font-weight: 600;
+        font-size: medium;
+        text-decoration: none;
+    }
+    
+    .sidebar ul li:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-right: 3px solid hsl(24, 100%, 50%);
+        ;
+    }
+    
+    .sidebar ul li a:active {
+        color: orangered;
+    }
+    
+    .sidebar .social-media {
+        padding-top: 7%;
+    }
+    
+    .sidebar .social-media i {
+        width: 30px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.4);
+        border-radius: 10%;
+        margin-left: 2%;
+    }
+    
+    .social-media i:hover {
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+    /* home */
+    
+    .wrapper .home {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        margin-left: 20%;
+    }
+    
+    .home .shadow {
+        width: 1%;
+        height: 134vh;
+        background-color: rgba(0, 0, 0, 0.1);
+        position: absolute;
+    }
+    
+    .home .home-items {
+        padding-left: 6px;
+        padding-top: 2%;
+    }
+    
+    .home .home-items i {
+        background-color: hsl(24, 100%, 50%);
+        position: absolute;
+        font-size: x-large;
+        font-weight: 600;
+        color: seashell;
+        width: 250px;
+        height: 50px;
+        text-align: right;
+        padding-right: 50px;
+        padding-top: 30px;
+        border-top-left-radius: 20px;
+    }
+    
+    .home-items i:before {
+        content: " ";
+        position: absolute;
+        width: 10px;
+        height: 30px;
+        background-color: hsl(24, 100%, 30%);
+        left: 0px;
+        top: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        z-index: 2;
+    }
+    
+    .home-items i::after {
+        content: " ";
+        position: absolute;
+        width: 10px;
+        height: 15px;
+        background-color: hsl(24, 100%, 50%);
+        left: 0px;
+        top: 100%;
+    }
+    
+    .home-items span {
+        position: absolute;
+        margin: 20%;
+        margin-top: 2%;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 600;
+    }
+    
+    .home-items .intoduct {
+        position: absolute;
+        padding-top: 10%;
+        width: 100%;
+        height: 300px;
+        background-color: rosybrown;
+    }
+    
+    .wrapper .home .intoduct {
+        position: relative;
+        margin-top: 10%;
+        margin-left: 1%;
+        width: 100%;
+        height: 300px;
+        background-color: rosybrown;
+    }
+    
+    .intoduct .item1 {
+        position: absolute;
+        background-color: sandybrown;
+        width: 40%;
+        height: 100%;
+        padding-left: 5%;
+    }
+    
+    .intoduct .item1 p {
+        color: aqua;
+        padding-right: 20%;
+        margin-top: 2%;
+    }
+    
+    .intoduct .item2 {
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        background-color: seagreen;
+        margin-left: 40%;
+    }
+    
+    .home .service {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-color: slategray;
+        margin: 2% 0 0 1%;
+    }
+    
+    .home .client {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: slategray;
+        margin: 2% 0 0 1%;
+    }
+    
+    .home .award {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-color: slategray;
+        margin: 2% 0 0 1%;
+    }
