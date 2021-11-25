@@ -89,7 +89,7 @@
     
     .wrapper .home {
         position: relative;
-        width: 100%;
+        width: 79%;
         height: 100vh;
         margin-left: 20%;
     }
@@ -145,7 +145,7 @@
     
     .home-items span {
         position: absolute;
-        margin: 20%;
+        margin-left: 28%;
         margin-top: 2%;
         color: rgba(0, 0, 0, 0.4);
         font-weight: 600;
@@ -171,7 +171,7 @@
     .intoduct .item1 {
         position: absolute;
         background-color: sandybrown;
-        width: 40%;
+        width: 45%;
         height: 100%;
         padding-left: 5%;
     }
@@ -184,10 +184,10 @@
     
     .intoduct .item2 {
         position: absolute;
-        width: 60%;
+        width: 55%;
         height: 100%;
         background-color: seagreen;
-        margin-left: 40%;
+        margin-left: 45%;
     }
     
     .home .service {
